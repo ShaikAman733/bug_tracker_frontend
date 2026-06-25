@@ -204,7 +204,6 @@ export function BugForm({
             type="date"
             className="input"
             value={dueDate ?? ''}
-            min={todayIso()}
             onChange={(e) => setDueDate(e.target.value)}
           />
         </div>

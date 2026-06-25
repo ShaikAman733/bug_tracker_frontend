@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #0d0d0f; /* Match the dark theme background */
+  color: #ffffff;
+  /* Prevent scrolling on the main body so our Layout component handles it */
+  overflow: hidden; 
+}
